@@ -1,0 +1,17 @@
+.avatar {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  flex: 0 0 42px;
+  place-items: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 750;
+  background: #5c6f87;
+  border-radius: 50%;
+}
+
+.warm {
+  color: #5b3e05;
+  background: #f4c65f;
+}

@@ -1,0 +1,45 @@
+.panel {
+  width: min(380px, calc(100% - 40px));
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.avatar {
+  width: 66px;
+  height: 66px;
+  display: grid;
+  margin: 0 auto 20px;
+  place-items: center;
+  color: var(--blue);
+  background: var(--blue-soft);
+  border: 1px solid #cbdfff;
+  border-radius: 50%;
+}
+
+.panel h2 {
+  margin: 0 0 8px;
+  color: var(--ink);
+  font-size: 25px;
+  line-height: 1.25;
+}
+
+.panel > p {
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.form {
+  display: grid;
+  gap: 16px;
+  margin-top: 28px;
+  text-align: left;
+}
+
+@media (max-width: 720px) {
+  .panel {
+    padding: 24px 0;
+  }
+}

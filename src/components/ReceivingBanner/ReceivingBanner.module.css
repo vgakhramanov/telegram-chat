@@ -1,0 +1,51 @@
+.banner {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  width: fit-content;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 auto 16px;
+  padding: 8px 12px;
+  color: #745117;
+  font-size: 12px;
+  background: #fff5df;
+  border: 1px solid #ead09a;
+  border-radius: 6px;
+}
+
+.wide {
+  max-width: 560px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.action {
+  justify-content: space-between;
+}
+
+.banner button {
+  flex: 0 0 auto;
+  padding: 5px 8px;
+  color: #6a4308;
+  font-size: 11px;
+  font-weight: 700;
+  background: #ffe5ae;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.banner button:hover {
+  background: #f8d488;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

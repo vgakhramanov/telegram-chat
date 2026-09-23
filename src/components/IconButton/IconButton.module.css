@@ -1,0 +1,16 @@
+.iconButton {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  color: #737b86;
+  background: transparent;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: color 150ms ease, background 150ms ease;
+}
+
+.iconButton:hover {
+  color: var(--blue);
+  background: var(--blue-soft);
+}

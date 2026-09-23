@@ -1,0 +1,89 @@
+.page {
+  position: relative;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 112px 32px 56px;
+  background: var(--surface);
+}
+
+.brand {
+  position: absolute;
+  top: 32px;
+  left: 40px;
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 750;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.panel {
+  width: 100%;
+}
+
+.formWrap {
+  width: min(420px, 100%);
+  margin: 0 auto;
+}
+
+.heading h2 {
+  margin: 10px 0 8px;
+  color: var(--ink);
+  font-size: 31px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.heading > p:last-child {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.form {
+  display: grid;
+  gap: 18px;
+  margin-top: 32px;
+}
+
+.advancedSettings {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.advancedSettings summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.advancedSettings summary::-webkit-details-marker {
+  display: none;
+}
+
+.advancedSettings[open] summary {
+  margin-bottom: 14px;
+}
+
+@media (max-width: 720px) {
+  .page {
+    place-items: start center;
+    padding: 124px 22px 48px;
+  }
+
+  .brand {
+    top: 22px;
+    left: 22px;
+  }
+
+  .heading h2 {
+    font-size: 27px;
+  }
+}

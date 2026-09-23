@@ -1,0 +1,1 @@
+export { ReceivingBanner } from './ReceivingBanner'
